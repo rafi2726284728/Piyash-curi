@@ -25,36 +25,14 @@ const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
 ["https://i.imghippo.com/files/lJ8376Tkc.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
-(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
-
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
-
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙💔🥀
-
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/priyanshu.rajput.official 💞🕊️
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇
-
-✧══════•❁❀❁•══════✧
-
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
-
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭
-
-🥳UPTIME🥳
-
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
-
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
-
-✅Thanks for using ${global.config.BOTNAME} Bot🖤
-
-
-🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🌿✰✧✧✧✧✦🌸
-┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+var callback = () => api.sendMessage({body:` 
+🔰Bot Name︎︎︎🔰  ${global.config.BOTNAME}
+🔴Bot Admin : Esteiverxe Lominous II
+⚫Owner facebook id link :➪ https://www.facebook.com/profile.php?id=100073154403246&mibextid=ZbWKwL
+🔰Bot Prefix🌸☞︎︎ < √ > ☜︎︎︎✰ ${global.config.PREFIX}
+┏━🦋━━°———°:____:°—°━━🦋━┓
+‌ ‌ ‌ ‌ Esteiverxe Lominous II
+┗━❤️‍🩹━━°__°:____:°__°━━❤️‍🩹━┛
 
 
 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
